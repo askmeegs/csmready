@@ -31,6 +31,7 @@ spec:
       containers:
       - name: main
         image: gcr.io/mokeefe/csmready/helloserver:v0.0.1
+        imagePullPolicy: Always
 ---
 apiVersion: v1
 kind: Service
