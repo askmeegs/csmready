@@ -34,8 +34,8 @@ spec:
         imagePullPolicy: Always
         env:
         - name: SERVER_ADDR
-          value: "hellosvc:80"
-        - name: USERS
+          value: "http://hellosvc:80/"
+        - name: REQUESTS_PER_SECOND
           value: "10"
         resources:
           requests:
