@@ -14,7 +14,7 @@ def callserver():
 
     rs = (grequests.get(u) for u in urls)
     grequests.map(rs, exception_handler=exception_handler)
-    print(f"%s request(s) complete to %s" % (c, url))
+    print("%s request(s) complete to %s" % (c, url))
 
 
 # start loadgen 
