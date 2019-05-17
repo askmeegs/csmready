@@ -6,7 +6,7 @@ import time
 import grequests 
 
 def exception_handler(request, exception):
-    print(f"Request failed: {exception}")
+    print("Request failed")
 
 
 def callserver(): 
